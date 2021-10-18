@@ -8,6 +8,7 @@ public class ThrowingHandling {
 	static int checkCal(int num1, int num2) throws IOException {
 		 if (num1 == num2) 
 		{
+			 System.out.println("Number 1 and 2 are equal, hence will be added. ");
 			 return num1+num2;
 		}
 		else {
@@ -23,13 +24,13 @@ public class ThrowingHandling {
 	public static void main(String[] args) throws IOException 
 	{
 		int sum=0;
-		Scanner scanner = new Scanner(System.in);
+		Scanner scan1 = new Scanner(System.in);
 		
 		System.out.println("Enter Number 1: ");
-		int num1 = scanner.nextInt();
+		int num1 = scan1.nextInt();
 		
 		System.out.println("Enter Number 2: ");
-		int num2 = scanner.nextInt();
+		int num2 = scan1.nextInt();
 		
 		try {
 		sum = checkCal(num1, num2);
@@ -37,7 +38,7 @@ public class ThrowingHandling {
 		catch(ArithmeticException AE) {
 			System.out.println(AE.getMessage());
 		}
-		System.out.println("Reult " + sum);
+		System.out.println("Sum of the 2 numbers are " + sum);
 	}
 	
  
