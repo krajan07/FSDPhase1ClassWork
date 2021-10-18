@@ -1,4 +1,4 @@
-package basics;
+package ClassWork;
 
 public class TypeCasting {
 

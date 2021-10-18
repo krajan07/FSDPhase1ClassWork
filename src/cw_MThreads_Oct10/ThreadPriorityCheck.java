@@ -1,4 +1,4 @@
-package MThreads;
+package cw_MThreads_Oct10;
 
 public class ThreadPriorityCheck extends Thread{
 	public void run() {

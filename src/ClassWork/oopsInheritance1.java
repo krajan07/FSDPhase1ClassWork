@@ -1,4 +1,4 @@
-package basics;
+package ClassWork;
 
 class Teacher {
 	private String designation = "Teacher";

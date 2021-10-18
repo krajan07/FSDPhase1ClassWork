@@ -1,8 +1,8 @@
-package checkregx;
+package cw_RegEX_Oct10;
 
 import java.util.regex.Pattern;
 
-public class ClassAssign {
+public class regEx {
 
 	public static void main(String[] args) {
 		
@@ -14,12 +14,10 @@ public class ClassAssign {
 		//Phone number with +91 country code
 		System.out.println (Pattern.matches("[+]91+\\s\\d{10}", "+91 9000000000")); 
 		
-		
-
-	//	System.out.println (Pattern.matches("[A-Z]+\\d{3}[a-zA-Z]*", "A123iidfgb")); 
-	//	System.out.println (Pattern.matches("[A-Z][A-Za-z]{6}\\d{3}", "Aasdfgh123")); 
-		//^[A-Z][A-Za-z]+([0-9]{3}?)+\w\w[A-Za-z]
-		System.out.println (Pattern.matches("^([A-Z])|([A-Za-z]{6})|(\\d{3})", "Aasd123fgh")); 
+        //Password Check	
+	    System.out.println (Pattern.matches("[A-Z]+\\d{3}[a-zA-Z]*", "A123iidfgb")); 
+	    System.out.println (Pattern.matches("[A-Z]+\\d{3}[a-zA-Z]*", "Aeeeiid123")); 
+		System.out.println (Pattern.matches("^([A-Z])|([A-Za-z]{6})|(\\d{3})", "Aasd123123")); 
 	
 
 	}

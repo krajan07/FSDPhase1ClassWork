@@ -1,9 +1,9 @@
-package ExecpHandling;
+package cw_ExecpHandling_Oct9;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class salaryCheck {
+public class salaryCheck_CustomException {
 	static int salary;
 
 	public static void main(String[] args) {
