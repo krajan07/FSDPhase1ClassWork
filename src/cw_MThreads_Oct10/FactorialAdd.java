@@ -37,7 +37,7 @@ class MyThread1 extends Thread{
 	}
 	public void run() {
 		c.factoiral(4);
-		System.out.println("Inside Thread 1");
+		//System.out.println("Inside Thread 1");
 	}
   }
 
@@ -48,7 +48,7 @@ class MyThread2 extends Thread{
 	}
 	public void run() {
 		c.factoiral(6);
-		System.out.println("Inside Thread 2");
+		//System.out.println("Inside Thread 2");
 	}
   }
 
@@ -59,7 +59,7 @@ class MyThread3 extends Thread{
 	}
 	public void run() {
 		c.add2nums(4, 5);
-		System.out.println("Inside Thread 3");
+		//System.out.println("Inside Thread 3");
 	}
   }
 
@@ -70,7 +70,7 @@ class MyThread4 extends Thread{
 	}
 	public void run() {
 		c.add2nums(20, 10);
-		System.out.println("Inside Thread 4");
+		//System.out.println("Inside Thread 4");
 	}
   }
 public class FactorialAdd {

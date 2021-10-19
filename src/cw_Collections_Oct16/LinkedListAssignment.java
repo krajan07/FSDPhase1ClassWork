@@ -54,6 +54,7 @@ public class LinkedListAssignment {
         System.out.println(Months);
            
         System.out.println("\n<<<<<<<<< Winter Month Check >>>>>>>");
+       
         System.out.println("Is winter month October available in the list? " + Months.contains("October"));
         System.out.println("Is winter month November available in the list? " +Months.contains("November"));
         System.out.println("Is winter month December available in the list? " +Months.contains("December"));
