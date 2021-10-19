@@ -1,4 +1,4 @@
-package ClassWork;
+package cw_Basics_Sep2526;
 
 class Teacher {
 	private String designation = "Teacher";
